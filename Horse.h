@@ -9,11 +9,10 @@
 #include "Transport.h"
 
 class Horse : public Transport{
-//private:
-//    int dist_travelled;
+private:
+    int speed = 100;
 public:
     Horse();
-//    virtual int get_dist_travelled();
     virtual void go();
 };
 

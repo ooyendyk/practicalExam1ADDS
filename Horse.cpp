@@ -5,7 +5,7 @@
 #include "Horse.h"
 
 void Horse::go() {
-    dist_travelled = dist_travelled + 100;
+    dist_travelled = dist_travelled + speed;
 }
 
 Horse::Horse() {
