@@ -7,7 +7,7 @@
 
 
 class Transport {
-private:
+protected:
     int dist_travelled;
 public:
     Transport();

@@ -9,8 +9,8 @@
 #include "Transport.h"
 
 class Horse : public Transport{
-private:
-    int dist_travelled;
+//private:
+//    int dist_travelled;
 public:
     Horse();
 //    virtual int get_dist_travelled();
