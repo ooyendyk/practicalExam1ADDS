@@ -6,12 +6,15 @@
 #define UNTITLED1_HORSE_H
 
 
-class Horse {
+#include "Transport.h"
+
+class Horse : public Transport{
 private:
     int dist_travelled;
 public:
     Horse();
-    void go();
+//    virtual int get_dist_travelled();
+    virtual void go();
 };
 
 
